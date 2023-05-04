@@ -509,7 +509,7 @@ MonoBehaviour:
   aRTrackedImageManager: {fileID: 1927185638}
   arModelsToPlace:
   - {fileID: 4713966773225998871, guid: 782560eca63593542acf68fc93fc5361, type: 3}
-  - {fileID: 8094309070042179073, guid: 73dcf39d9fcc28c41a84d41d1f14794b, type: 3}
+  - {fileID: 1856904302283404559, guid: 73dcf39d9fcc28c41a84d41d1f14794b, type: 3}
 --- !u!114 &1927185638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927185636}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 859.8004, y: 945.2644, z: 21.349487}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
