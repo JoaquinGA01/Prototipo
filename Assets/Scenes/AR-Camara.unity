@@ -158,6 +158,7 @@ MonoBehaviour:
   arModelsToPlace:
   - {fileID: 5773166531159955899, guid: ceb69835901a837489db29861af38aba, type: 3}
   - {fileID: 1309349989243594074, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+  - {fileID: 5356768260530594319, guid: 8ad9e51bd93b01a49813de1da005cb7f, type: 3}
 --- !u!114 &1031234835
 MonoBehaviour:
   m_ObjectHideFlags: 0
