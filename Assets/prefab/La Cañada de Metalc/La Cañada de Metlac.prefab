@@ -591,6 +591,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nombre_modelo: "La Ca\xF1ada de Metlac"
+  InfoPrincipal: "Autor: Jos\xE9 Mar\xEDa Velasco En Ca\xF1ada de Metlac, Velasco
+    captura el cambio ocasionado en el paisaje mexicano con el advenimiento del ferrocarril.
+    \xBFDe d\xF3nde viene el tren? "
+  data:
+  - nombre: El tren
+    informacion: "\xBFDe Donde crees que esta saliendo el tren?"
+  - nombre: Las Plantas
+    informacion: "\xBFEs la vegetacion correcta deacuerdo al lugar?"
+  - nombre: Los Tuneles
+    informacion: "\xBFDe Verdad Son tuneles los que estan ahi?"
+  - nombre: El Volcan
+    informacion: "\xBFPorque crees que esta ahi el Volca?"
 --- !u!1 &5373372931517238859
 GameObject:
   m_ObjectHideFlags: 0

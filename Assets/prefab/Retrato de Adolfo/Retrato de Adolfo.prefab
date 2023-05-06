@@ -49,8 +49,42 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: InfoPrincipal
+      value: "Autor: Diego Rivera En Ca\xF1ada de Metlac, Velasco captura el cambio
+        ocasionado en el paisaje mexicano con el advenimiento del ferrocarril. \xBFQu\xE9
+        objeto marca movimiento? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: nombre_modelo
       value: Retrato de Adolfo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[0].nombre
+      value: El Personaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[1].nombre
+      value: El humo
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[2].nombre
+      value: El paisaje
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[0].informacion
+      value: "\xBFDe quien crees que se trata?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[1].informacion
+      value: "\xBFQue crees que etsa fumando?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: data.Array.data[2].informacion
+      value: Donde Crees que se encuentra?
       objectReference: {fileID: 0}
     - target: {fileID: 8368442198142101616, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: m_Pivot.x
