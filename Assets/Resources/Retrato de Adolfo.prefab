@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5220037939534976313}
   - component: {fileID: 6362610604911794284}
   m_Layer: 0
-  m_Name: Fondo
+  m_Name: El Paisaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 5859810446567294401}
   - component: {fileID: 2261226961450109188}
   m_Layer: 0
-  m_Name: Personaje
+  m_Name: El Personaje
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ GameObject:
   - component: {fileID: 7708721648617444674}
   - component: {fileID: 8613282092290590011}
   m_Layer: 0
-  m_Name: Humo
+  m_Name: El Humo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

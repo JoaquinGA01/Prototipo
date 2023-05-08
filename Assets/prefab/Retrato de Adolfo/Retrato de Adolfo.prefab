@@ -68,11 +68,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[1].nombre
-      value: El humo
+      value: El Humo
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[2].nombre
-      value: El paisaje
+      value: El Paisaje
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[0].informacion
@@ -250,6 +250,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
+--- !u!1 &5086386470131083590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
+  m_PrefabInstance: {fileID: 5356768261898310679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!111 &5455750951891665552
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5086386470131083590}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!4 &5610826696483959804 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}

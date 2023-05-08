@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Informacion
+  - "La Ca\xF1ada de Metlac(Tren)"
+  - "La Ca\xF1ada de Metlac(Plantas)"
+  - "La Ca\xF1ada de Metlac(Fondo)"
+  - "La Ca\xF1ada de Metlac(Monta\xF1a)"
+  - "La Ca\xF1ada de Metlac(Tunel)"
   layers:
   - Default
   - TransparentFX

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4354962873409780867}
   - component: {fileID: 1284238051837863075}
   m_Layer: 0
-  m_Name: Tren
+  m_Name: El Tren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5035790491310110931}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4354962873409780867
 MeshFilter:
@@ -111,11 +111,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 8265798044891445617}
-  - {fileID: 5003331332192511144}
-  - {fileID: 7162932847634730855}
   - {fileID: 1864684956409227744}
+  - {fileID: 7162932847634730855}
   - {fileID: 5021661313417142971}
+  - {fileID: 5003331332192511144}
+  - {fileID: 8265798044891445617}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 7503501817143688926}
   - component: {fileID: 3476397917762862415}
   m_Layer: 0
-  m_Name: Plantas
+  m_Name: Las Plantas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +155,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5035790491310110931}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &7503501817143688926
 MeshFilter:
@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 4109619548416977445}
   - component: {fileID: 2969430504006805360}
   m_Layer: 0
-  m_Name: Fondo
+  m_Name: El Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,7 +238,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5035790491310110931}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4109619548416977445
 MeshFilter:
@@ -302,7 +302,7 @@ GameObject:
   - component: {fileID: 182353012415490610}
   - component: {fileID: 7107377270092139750}
   m_Layer: 0
-  m_Name: "Monta\xF1a"
+  m_Name: El Volcan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -321,7 +321,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5035790491310110931}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &182353012415490610
 MeshFilter:
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 5279360635339709788}
   - component: {fileID: 3564708565187776173}
   m_Layer: 0
-  m_Name: Tunel
+  m_Name: Los Tuneles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -404,7 +404,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5035790491310110931}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5279360635339709788
 MeshFilter:

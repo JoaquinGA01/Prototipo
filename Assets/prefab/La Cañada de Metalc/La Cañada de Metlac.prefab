@@ -595,13 +595,15 @@ MonoBehaviour:
     captura el cambio ocasionado en el paisaje mexicano con el advenimiento del ferrocarril.
     \xBFDe d\xF3nde viene el tren? "
   data:
-  - nombre: El tren
+  - nombre: El Tren
     informacion: "\xBFDe Donde crees que esta saliendo el tren?"
   - nombre: Las Plantas
     informacion: "\xBFEs la vegetacion correcta deacuerdo al lugar?"
   - nombre: Los Tuneles
     informacion: "\xBFDe Verdad Son tuneles los que estan ahi?"
   - nombre: El Volcan
+    informacion: "\xBFPorque crees que esta ahi el Volca?"
+  - nombre: El Fondo
     informacion: "\xBFPorque crees que esta ahi el Volca?"
 --- !u!1 &5373372931517238859
 GameObject:
@@ -614,6 +616,7 @@ GameObject:
   - component: {fileID: 5713548147614272345}
   - component: {fileID: 1953030506406392155}
   - component: {fileID: 8846635500050801951}
+  - component: {fileID: 1794656810440773749}
   m_Layer: 0
   m_Name: "ca\xF1ada de metlac"
   m_TagString: Untagged
@@ -686,6 +689,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!111 &1794656810440773749
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5373372931517238859}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &7692635113496354442
 GameObject:
   m_ObjectHideFlags: 0
