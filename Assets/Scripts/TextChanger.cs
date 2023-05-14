@@ -65,7 +65,6 @@ public class TextChanger : MonoBehaviour
                             miObjeto.transform.position = new Vector3(0,0,3);
                             miObjeto.transform.localScale = escalaActual;
                         }
-                        Debug.Log(escalaActual);
                 }
                 else
                 {
@@ -79,7 +78,6 @@ public class TextChanger : MonoBehaviour
                             miObjeto.transform.position = new Vector3(0,1,5);
                             miObjeto.transform.localScale = escalaActual;
                         }
-                        Debug.Log(escalaActual);
                     }
                 }
             }
