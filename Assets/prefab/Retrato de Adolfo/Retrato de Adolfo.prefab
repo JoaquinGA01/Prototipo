@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5356768260530594319
+--- !u!1 &130753632591389895
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,7 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5356768260530594318}
+  - component: {fileID: 4228653121359021393}
+  - component: {fileID: 944364579968517740}
+  - component: {fileID: 4825184306134421942}
   m_Layer: 0
   m_Name: Retrato de Adolfo
   m_TagString: Untagged
@@ -16,48 +18,145 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5356768260530594318
+--- !u!4 &4228653121359021393
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5356768260530594319}
+  m_GameObject: {fileID: 130753632591389895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 4954576949071902021}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &944364579968517740
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130753632591389895}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 45872c4949f099340ac7d9cf2006e87d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 16.57, y: 23.37146}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &4825184306134421942
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 130753632591389895}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0df00662240dcd948b84a925330f3ccc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &4559182900405880575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4954576949071902021}
+  m_Layer: 0
+  m_Name: Retrato de Adolfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4954576949071902021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4559182900405880575}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.3067064, y: 2.0213122, z: 2.18125}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5610826696483959804}
-  - {fileID: 4500711816152339703}
+  - {fileID: 4228653121359021393}
+  - {fileID: 1630863487417213770}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &5356768261881986183
+--- !u!1001 &7098605828681124666
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 5356768260530594318}
+    m_TransformParent: {fileID: 4954576949071902021}
     m_Modifications:
-    - target: {fileID: 702669181106370468, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
-      propertyPath: m_Text
-      value: Retrato de Adolfo Best Maugard
-      objectReference: {fileID: 0}
     - target: {fileID: 3176083258170138155, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: InfoPrincipal
-      value: "Autor: Diego Rivera Diego Rivera pint\xF3 un retrato de su amigo Adolf
-        Best  en un estilo realista, donde se muestra una  expresi\xF3n calmada y
-        serena, resaltando  la t\xE9cnica y habilidad del artista mexicano. \xBFQu\xE9
-        objeto marca movimiento? "
+      value: Autor
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: nombre_modelo
-      value: Retrato de Adolfo Best Maugard
+      value: Retrato de Adolfo
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.size
@@ -65,27 +164,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[0].nombre
-      value: El Personaje
+      value: Paguina1
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[1].nombre
-      value: El Humo
+      value: Paguina2
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[2].nombre
-      value: El Paisaje
+      value: Paguina3
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[0].informacion
-      value: "\xBFDe quien crees que se trata?"
+      value: Hola
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[1].informacion
-      value: "\xBFQue crees que etsa fumando?"
+      value: Hola2
       objectReference: {fileID: 0}
     - target: {fileID: 7685116827058718075, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: data.Array.data[2].informacion
-      value: Donde Crees que se encuentra?
+      value: Hola3
       objectReference: {fileID: 0}
     - target: {fileID: 8368442198142101616, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: m_Pivot.x
@@ -173,107 +272,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
---- !u!224 &4500711816152339703 stripped
+--- !u!224 &1630863487417213770 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8368442198142101616, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
-  m_PrefabInstance: {fileID: 5356768261881986183}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &5356768261898310679
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 5356768260530594318}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalScale.x
-      value: -100
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 141.59293
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 88.495575
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_ConstrainProportionsScale
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-      propertyPath: m_Name
-      value: Retrato de Adolfo
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
---- !u!1 &5086386470131083590 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-  m_PrefabInstance: {fileID: 5356768261898310679}
-  m_PrefabAsset: {fileID: 0}
---- !u!111 &5455750951891665552
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5086386470131083590}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
-  m_Animations:
-  - {fileID: 7400000, guid: 5f6afd7fbccb0a44396d25f292afa6e5, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
---- !u!4 &5610826696483959804 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ef13323b14905ca4d90520f301b9d3b2, type: 3}
-  m_PrefabInstance: {fileID: 5356768261898310679}
+  m_PrefabInstance: {fileID: 7098605828681124666}
   m_PrefabAsset: {fileID: 0}

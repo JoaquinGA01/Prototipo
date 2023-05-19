@@ -157,8 +157,8 @@ MonoBehaviour:
   aRTrackedImageManager: {fileID: 1031234835}
   arModelsToPlace:
   - {fileID: 5773166531159955899, guid: ceb69835901a837489db29861af38aba, type: 3}
-  - {fileID: 1309349989243594074, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
-  - {fileID: 5356768260530594319, guid: 8ad9e51bd93b01a49813de1da005cb7f, type: 3}
+  - {fileID: 5586376870001499927, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+  - {fileID: 4559182900405880575, guid: 8ad9e51bd93b01a49813de1da005cb7f, type: 3}
 --- !u!114 &1031234835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,8 +171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: dd04de5f36422da41bf77411871b1318, type: 2}
-  m_MaxNumberOfMovingImages: 0
+  m_SerializedLibrary: {fileID: 11400000, guid: 3c43beb773020fa4eac5826130e84943, type: 2}
+  m_MaxNumberOfMovingImages: 2
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &1031234836
 MonoBehaviour:
@@ -201,7 +201,7 @@ Transform:
   m_Children:
   - {fileID: 1712694350}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046262518
 GameObject:
@@ -355,7 +355,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1712694344
 GameObject:
@@ -553,5 +553,78 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1952734996
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5586376868952091879, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: data.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376868952091879, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: data.Array.data[3].nombre
+      value: El Fondo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376868952091879, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: data.Array.data[3].informacion
+      value: "\xBFEn que parte del mundo se encuentran?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376869536573403, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499925, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5586376870001499927, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}
+      propertyPath: m_Name
+      value: "La Ca\xF1ada de Metlac"
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 291a9edf81557c648b7c6f961824db9e, type: 3}

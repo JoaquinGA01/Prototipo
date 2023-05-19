@@ -20,14 +20,14 @@ public class ObtenerData : MonoBehaviour
     public List<Text> info;
     public List<GameObject> objetoPadre;
     public List<GameObject> botonPrefab;
+    public GameObject objetoPadreModelo;
     private List<DatosPartes> datosBotones;
 void Start()
 {
     string nombre = PlayerPrefs.GetString("Nombre_Modelo");
             string data = PlayerPrefs.GetString("Data-JSON");
             string info_principal = PlayerPrefs.GetString("Info_Modelo");
-            GameObject modeloPrefab = Resources.Load<GameObject>(nombre);
-            GameObject modeloInstanciado = Instantiate(modeloPrefab, new Vector3(0,1,5), Quaternion.identity);
+            GameObject modeloInstanciado = IntanciarModelo(nombre);
 
             title[1].text = nombre;
             info[1].text = info_principal;
@@ -55,5 +55,32 @@ void CrearBotones(string djson, GameObject modelo)
         }
         
     }
+
+GameObject IntanciarModelo(string nombre){
+    GameObject modeloPrefab = Resources.Load<GameObject>(nombre);
+    GameObject modeloInstanciado = Instantiate(modeloPrefab, objetoPadreModelo.transform);
+    Renderer renderer = modeloInstanciado.GetComponent<Renderer>();
+
+
+    float height = modeloPrefab.GetComponent<Renderer>().bounds.size.y;
+    float width = modeloPrefab.GetComponent<Renderer>().bounds.size.x;
+
+
+    if (height > width)
+    {
+        float scaleY = objetoPadreModelo.transform.localScale.y / renderer.bounds.size.y;
+        modeloInstanciado.transform.localScale = new Vector3(scaleY, scaleY, scaleY);
+    }
+    else if (width > height)
+    {
+        float scaleX = objetoPadreModelo.transform.localScale.x / renderer.bounds.size.x;
+        modeloInstanciado.transform.localScale = new Vector3(scaleX, scaleX, scaleX);
+    }
+    else
+    {
+        // Si el alto y el ancho son iguales, no se requiere ajuste de escala
+    }
+    return modeloInstanciado;
+}
 
 }
