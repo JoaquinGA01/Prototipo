@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 8571444852341283168}
   - component: {fileID: 8571444852341283170}
   m_Layer: 0
-  m_Name: Vegetacion
+  m_Name: Las Plantas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -159,8 +159,8 @@ MonoBehaviour:
   - {fileID: 8571444854248090635}
   - {fileID: 8571444852360756749}
   m_Bounds:
-    m_Center: {x: -0.0000009536743, y: -0.24985027, z: 0}
-    m_Extent: {x: 14.000001, y: 6.0898585, z: 0}
+    m_Center: {x: -0.0000009536743, y: -0.24985123, z: 0}
+    m_Extent: {x: 14, y: 6.089858, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -637,7 +637,7 @@ Transform:
   m_GameObject: {fileID: 8571444852716572596}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 15}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 8571444852341283169}
@@ -748,7 +748,7 @@ GameObject:
   - component: {fileID: 8571444852908755698}
   - component: {fileID: 8571444852908755699}
   m_Layer: 0
-  m_Name: Humo
+  m_Name: Los Tuneles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -846,8 +846,8 @@ MonoBehaviour:
   - {fileID: 8571444853822864261}
   - {fileID: 8571444853789490287}
   m_Bounds:
-    m_Center: {x: -0.02484274, y: 0.00999856, z: 0}
-    m_Extent: {x: 1.9875803, y: 1.4199986, z: 0}
+    m_Center: {x: -0.024842381, y: 0.009997845, z: 0}
+    m_Extent: {x: 1.98758, y: 1.4199982, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 8571444853006728931}
   - component: {fileID: 8571444853006728928}
   m_Layer: 0
-  m_Name: Tren
+  m_Name: El Tren
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1043,8 +1043,8 @@ MonoBehaviour:
   - {fileID: 8571444852715707033}
   - {fileID: 8571444852501858131}
   m_Bounds:
-    m_Center: {x: -0.0046401024, y: -0.17814088, z: 0}
-    m_Extent: {x: 5.55602, y: 2.5318604, z: 0}
+    m_Center: {x: -0.004641056, y: -0.17814183, z: 0}
+    m_Extent: {x: 5.55602, y: 2.5318599, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
   m_AutoRebind: 0
@@ -2079,7 +2079,7 @@ GameObject:
   - component: {fileID: 8571444853972086327}
   - component: {fileID: 8571444853972086326}
   m_Layer: 0
-  m_Name: Fondo
+  m_Name: El Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
