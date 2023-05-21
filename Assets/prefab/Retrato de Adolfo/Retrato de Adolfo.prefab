@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4228653121359021393}
   - component: {fileID: 944364579968517740}
-  - component: {fileID: 4825184306134421942}
+  - component: {fileID: 6245447690529636767}
   m_Layer: 0
   m_Name: Retrato de Adolfo
   m_TagString: Untagged
@@ -85,7 +85,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &4825184306134421942
+--- !u!95 &6245447690529636767
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -146,6 +146,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4954576949071902021}
     m_Modifications:
+    - target: {fileID: 702669181106370468, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
+      propertyPath: m_Text
+      value: 'Retrato de Adolfo
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 3176083258170138155, guid: 9109561aef630e24780b2cc7163219a1, type: 3}
       propertyPath: m_Name
       value: Canvas

@@ -59,7 +59,7 @@ void CrearBotones(string djson, GameObject modelo)
 GameObject IntanciarModelo(string nombre){
     GameObject modeloPrefab = Resources.Load<GameObject>(nombre);
     GameObject modeloInstanciado = Instantiate(modeloPrefab, objetoPadreModelo.transform);
-    Renderer renderer = modeloInstanciado.GetComponent<Renderer>();
+    /*Renderer renderer = modeloInstanciado.GetComponent<Renderer>();
 
 
     float height = modeloPrefab.GetComponent<Renderer>().bounds.size.y;
@@ -79,7 +79,7 @@ GameObject IntanciarModelo(string nombre){
     else
     {
         // Si el alto y el ancho son iguales, no se requiere ajuste de escala
-    }
+    }*/
     return modeloInstanciado;
 }
 

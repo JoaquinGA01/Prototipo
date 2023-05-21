@@ -56,11 +56,11 @@ MonoBehaviour:
   data:
   - nombre: El Tren
     informacion: "\xBFDe Donde crees que esta saliendo el tren?"
-  - nombre: Las Plantas
+  - nombre: El Cielo
     informacion: "\xBFEs la vegetacion correcta deacuerdo al lugar?"
-  - nombre: Los Tuneles
+  - nombre: Los Vegetacion
     informacion: "\xBFDe Verdad Son tuneles los que estan ahi?"
-  - nombre: El Volcan
+  - nombre: "La Monta\xF1a"
     informacion: "\xBFPorque crees que esta ahi el Volca?"
   - nombre: El Fondo
     informacion: "\xBFEn que parte del mundo se encuentran?"
@@ -234,7 +234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5586376869536573403}
   - component: {fileID: 5586376869536573401}
-  - component: {fileID: 5586376869536573402}
+  - component: {fileID: 1511137512110659534}
   m_Layer: 0
   m_Name: "Ca\xF1ada de Metlac. Jos\xE9 Mar\xEDa Velasco"
   m_TagString: Untagged
@@ -309,7 +309,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &5586376869536573402
+--- !u!95 &1511137512110659534
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
