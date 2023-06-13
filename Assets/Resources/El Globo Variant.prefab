@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8653719598885068355, guid: 95b28bd9e0e92804aaedaf77c887f000, type: 3}
       propertyPath: m_Name
-      value: El Globo
+      value: El Globo Variant
       objectReference: {fileID: 0}
     - target: {fileID: -7552582706839291426, guid: 95b28bd9e0e92804aaedaf77c887f000, type: 3}
       propertyPath: m_RootOrder

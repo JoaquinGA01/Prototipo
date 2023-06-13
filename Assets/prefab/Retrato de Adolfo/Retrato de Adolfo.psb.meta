@@ -100,7 +100,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2013
+      x: 2093
       y: 3638
       width: 212
       height: 235
@@ -113,7 +113,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2013, y: 3638}
+    uvTransform: {x: 2093, y: 3638}
     spritePosition: {x: 785, y: 1667}
   - name: Capa 8
     originalName: 
@@ -145,7 +145,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 1010
-      y: 3376
+      y: 3422
       width: 613
       height: 619
     spriteID: 33d91861a3debcc4bbfd2d2ab51f8abc
@@ -157,7 +157,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 1010, y: 3376}
+    uvTransform: {x: 1010, y: 3422}
     spritePosition: {x: 786, y: 1577}
   - name: Capa 10
     originalName: 
@@ -224,7 +224,7 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 1669, y: 3638}
-    spritePosition: {x: 945, y: 1637}
+    spritePosition: {x: 945, y: 1601}
   - name: Capa 14
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -320,7 +320,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 2233
+      x: 2313
       y: 3638
       width: 48
       height: 140
@@ -333,7 +333,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 2233, y: 3638}
+    uvTransform: {x: 2313, y: 3638}
     spritePosition: {x: 945, y: 561}
   - name: Capa 1
     originalName: 
@@ -437,7 +437,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 3292feb8ecfd7704a83c09454ab2b104
     layerID: 9
-    mosaicPosition: {x: 2013, y: 3638}
+    mosaicPosition: {x: 2093, y: 3638}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -457,7 +457,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 33d91861a3debcc4bbfd2d2ab51f8abc
     layerID: 11
-    mosaicPosition: {x: 1010, y: 3376}
+    mosaicPosition: {x: 1010, y: 3422}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -537,7 +537,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 915310932179f8a4486295a767f9952b
     layerID: 24
-    mosaicPosition: {x: 2233, y: 3638}
+    mosaicPosition: {x: 2313, y: 3638}
     flatten: 0
     isImported: 1
     isVisible: 1
